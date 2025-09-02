@@ -1,6 +1,7 @@
 # Arduino Sri Lanka E-Commerce Website
 
 This is a full-stack web application built with **HTML, CSS, JS, PHP, and MySQL**.  
+
 The purpose of this e-commerce web application project is to create a robust and user-friendly online 
 platform dedicated to selling Arduino components and related accessories. The platform aims to serve 
 both hobbyists and professionals in the electronics community by providing easy access to a wide range 
