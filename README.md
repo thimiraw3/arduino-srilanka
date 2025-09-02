@@ -11,11 +11,25 @@ interface, advanced search capabilities, secure payment options, and personalize
 the platform includes a comprehensive admin interface for efficient management of products, orders, inventory, 
 and customer interactions.
 
+---
 
 ## ⚙️ Tech Stack
 - Frontend: HTML, CSS, JavaScript  
 - Backend: PHP  
-- Database: MySQL  
+- Database: MySQL
+
+---
+
+## 🚀 Features
+- User registration & login
+- Browse and search products
+- Shopping cart functionality
+- Checkout system
+- Admin panel for managing products and orders
+- Database-driven with MySQL
+
+---
+
 
 ### Homepage
 ![Homepage](screenshots/home.png)
@@ -41,3 +55,24 @@ and customer interactions.
 
 ### Reports
 ![Reporst](screenshots/reports.png)
+
+---
+
+## 📂 Project Setup
+
+### Prerequisites
+- [XAMPP](https://www.apachefriends.org/) installed
+- MySQL database
+
+### Steps to Run Locally
+1. Clone the repository:
+   Move the project to your htdocs folder (if using XAMPP).
+
+2. Import the database:
+- Import database/arduino_db.sql file in the database folder.
+- Start Apache and MySQL in XAMPP.
+- Open in browser:  http://localhost/arduino-srilanka/home.php
+
+
+## 🙌 Contributors
+- Thimira Wassana – Developer
