@@ -28,8 +28,8 @@ if (isset($_POST["cart"]) && $_POST["cart"] == "true") {
     $qtyList[] = $_POST["qty"];
 }
 
-$merchantId = "REMOVED";
-$merchantSecret = REMOVED;
+$merchantId = "Your ID";
+$merchantSecret = "Your Secret";
 $items = [];
 $netTotal = 0;
 $currency = "LKR";
