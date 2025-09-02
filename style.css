@@ -1,0 +1,266 @@
+.background {
+    background-image: url(resources/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    cursor: pointer;
+}
+
+.background-color {
+    background-color: #03989E;
+}
+
+.text-color {
+    color: #03989E;
+}
+
+.admin-body {
+    margin-top: 100px;
+}
+
+.admin-body2 {
+    margin-top: 80px;
+}
+
+.special-button1 {
+    border: 2px solid #03989E;
+    background-color: #03989E;
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.special-button1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-button1:hover {
+    background-color: #027377;
+}
+
+@font-face {
+    font-family: "SairaCondensed";
+    src: url("font/SairaCondensed-Medium.ttf");
+}
+
+.main-text {
+    font-family: "SairaCondensed";
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+
+* {
+    font-family: "SairaCondensed";
+    font-size: 16px;
+}
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container2 {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+.scrollable-menu {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding: 15px;
+}
+
+.scrollable-menu2 {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding: 15px;
+}
+
+.scrollable-menu3 {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding: 15px;
+}
+
+.menu-item {
+    cursor: pointer;
+}
+
+/* Optional: Hide scrollbar for a cleaner look */
+.scrollable-menu::-webkit-scrollbar {
+    display: none;
+}
+
+/* Optional: Hide scrollbar for a cleaner look */
+.scrollable-menu2::-webkit-scrollbar {
+    display: none;
+}
+
+/* Optional: Hide scrollbar for a cleaner look */
+.scrollable-menu3::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-menu {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scroll-left, .scroll-right {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+
+/* styles.css */
+.star-rating {
+    direction: rtl;
+    display: inline-block
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #ddd;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.star-rating input:checked ~ label,
+.star-rating input:checked ~ label ~ label {
+    color: #f7d106;
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.message {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.message.sent {
+    margin-left: 30%;
+    background-color: #dcf8c6;
+    text-align: right;
+}
+
+.message.delivered {
+    margin-left: 30%;
+    background-color: #f8c6c6;
+    text-align: left;
+}
+
+.message.received {
+    margin-right: 30%;
+    background-color: #f1f0f0;
+    text-align: left;
+}
+
+.input-container {
+    display: flex;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#sendMessage {
+    padding: 5px 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}

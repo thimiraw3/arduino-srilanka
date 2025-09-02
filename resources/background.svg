@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #1f978d;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <path class="cls-1" d="M0,0H1366V768H0V0H0Z"/>
+    <path class="cls-2" d="M0,0H1368l-1.15,272.987h0L0,486H0V0H0Z"/>
+  </g>
+</svg>
