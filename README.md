@@ -76,3 +76,6 @@ and customer interactions.
 
 ## 🙌 Contributors
 - Thimira Wassana – Developer
+
+## MIT License
+- Copyright (c) 2025 Thimira Wassana
